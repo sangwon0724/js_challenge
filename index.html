@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>javascript challenge</title>
+    <meta charset="UTF-8" />
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <span class="clock"> </span>
+      <form class="js-form">
+        <input type="text" placeholder="What is your name?" />
+      </form>
+
+      <h4 class="js-userName"></h4>
+
+      <span class="title">Task</span><br /><br />
+      <form class="js-toDoForm">
+        <input type="text" placeholder="Write a to do" class="task" />
+      </form>
+    </header>
+    <div class="list">
+      <div class="list__element">
+        <span class="title">Pending List</span>
+        <ul class="js-Pending"></ul>
+      </div>
+      <div class="list__element">
+        <span class="title">Finished List</span>
+        <ul class="js-Finished"></ul>
+      </div>
+    </div>
+    <footer>
+      <span class="js-weather"></span>
+    </footer>
+
+    <!--index.js가 작동하지 않는다.-->
+    <!--분명 코드샌드박스에서는 작동했으나 VSCODE에서는 작동되지않는다.-->
+    <script src="./src/js/clock.js"></script>
+    <script src="./src/js/randomBackImg.js"></script>
+    <script src="./src/js/toDoList.js"></script>
+    <script src="./src/js/userName.js"></script>
+    <script src="./src/js/weather.js"></script>
+  </body>
+</html>
